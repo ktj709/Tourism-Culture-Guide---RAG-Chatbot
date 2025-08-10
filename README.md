@@ -46,6 +46,7 @@ Google Gemini API key
 
 
 git clone https://github.com/ktj709/Tourism-Culture-Guide---RAG-Chatbot
+
 cd Tourism-Culture-Guide---RAG-Chatbot
 
 pip install -r requirements.txt
