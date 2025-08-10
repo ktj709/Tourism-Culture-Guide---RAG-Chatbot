@@ -5,7 +5,7 @@ Built with Python, LangChain, FAISS, and Google Gemini 2.0 Flash.
 
 # How This Project Works
 
-This project is a Retrieval-Augmented Generation (RAG) based chatbot that answers tourism-related queries for Delhi, Mumbai, and Jaipur (with the flexibility to easily add more cities in the future). It works by first collecting tourism information from sources like Wikipedia and city tourism websites (scraping), cleaning the text, and converting it into vector embeddings stored in a FAISS database. When a user asks a question, the query is embedded, relevant information is retrieved from FAISS, and then passed to Google Gemini 2.0 Flash (or another LLM) to generate accurate, context-aware responses.
+The project follows a Retrieval-Augmented Generation (RAG) workflow to deliver accurate, context-aware answers for tourism-related queries. First, data about each city is collected from multiple sources — Wikipedia articles (scraped as text from URLs), tourism brochures in PDF format, and plain text files or online text URLs. This content is split into smaller chunks, embedded into numerical vectors using a sentence-transformer model, and stored in a FAISS vector database for efficient similarity search. When a user asks a question, the system retrieves the most relevant chunks from the database and passes them, along with the question, to Google’s Gemini 2.0 Flash model. The LLM then generates a coherent answer using only the retrieved context, ensuring factual and source-grounded responses.
 
 
 # Features
