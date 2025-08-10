@@ -83,11 +83,11 @@ This may take a few minutes, depending on the number and size of PDFs/URLs being
 
 # Once running, type your tourism question, e.g.:
 
-"Best cultural festivals in Jaipur"
+"cultural festivals in Jaipur"
 
-"Top 3 museums in Mumbai"
+"museums in Mumbai"
 
-"Traditional food to try in Delhi"
+"food to try in Delhi"
 
 # Adding New Cities
 
