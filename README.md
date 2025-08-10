@@ -75,6 +75,12 @@ Create a .env file in the root directory:
 
 python main.py
 
+Upon running for the first time, the script will process and embed all source documents into batches before it becomes ready to answer questions.
+This may take a few minutes, depending on the number and size of PDFs/URLs being loaded. Once completed, you will see the prompt:
+
+        Ask your tourism question (or type 'exit' to quit):
+
+
 # Once running, type your tourism question, e.g.:
 
 "Best cultural festivals in Jaipur"
