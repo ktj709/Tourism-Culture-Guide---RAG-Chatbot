@@ -25,13 +25,21 @@ Can run entirely locally (LLM call still requires internet)
 
 📂 Tourism & Culture Guide RAG Chatbot
 ├── main.py                # Entry point of the application
+
 ├── ingest.py              # Fetches and loads documents
+
 ├── chunk.py               # Splits documents into chunks
+
 ├── embed_store.py         # Embeds and stores chunks in FAISS
+
 ├── retrieve.py            # Retrieves top relevant chunks
+
 ├── generate.py            # Generates final answers using Gemini
+
 ├── requirements.txt       # Dependencies list
+
 ├── .env                   # API key storage
+
 └── README.md              # Project documentation
 
 # Prerequisites
