@@ -3,6 +3,11 @@
 A Retrieval-Augmented Generation (RAG) based chatbot that answers tourism-related questions using curated data from Wikipedia (via scraping), tourism PDFs, and text sources. 
 Built with Python, LangChain, FAISS, and Google Gemini 2.0 Flash.
 
+# How This Project Works
+
+This project is a Retrieval-Augmented Generation (RAG) based chatbot that answers tourism-related queries for Delhi, Mumbai, and Jaipur (with the flexibility to easily add more cities in the future). It works by first collecting tourism information from sources like Wikipedia and city tourism websites (scraping), cleaning the text, and converting it into vector embeddings stored in a FAISS database. When a user asks a question, the query is embedded, relevant information is retrieved from FAISS, and then passed to Google Gemini 2.0 Flash (or another LLM) to generate accurate, context-aware responses.
+
+
 # Features
 
 Fetches tourism and cultural data from:
